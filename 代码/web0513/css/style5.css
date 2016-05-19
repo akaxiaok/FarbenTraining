@@ -1,0 +1,88 @@
+body{
+    height: 800px;
+}
+.menu li {
+    width: 50%;
+    float: left;
+    height: 205px;
+}
+
+.menu li img {
+    width: 100%;
+    height: 100%;
+}
+
+.left {
+    margin-left: 30%;
+    margin-right: 10%;
+    width: 60%;
+    height: 155px;
+    margin-top: 50px;
+    float: left;
+}
+.tag{
+    float: left;
+    height: 100%;
+    line-height: 30px;
+    font-weight: 900;
+    font-size: 35px;
+    visibility: hidden;
+    color: #ffffff;
+}
+.right {
+    margin-left: 10%;
+    margin-right: 30%;
+    width: 60%;
+    height: 155px;
+    margin-top: 50px;
+}
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+
+.time {
+    color: #999999;
+    line-height: 30px;
+}
+
+.content {
+    line-height: 20px;
+}
+.boarder:hover,.boarder:hover .time{
+    color: #ffffff;
+    background:#ff504e;
+}
+.boarder:hover .tag{
+    visibility: visible;
+}
+.contact{
+    height: 85px;
+}
+.contact{
+    margin: 50px 13%;
+}
+.contact li{
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+.contact img{
+    float: left;
+   /*margin-top: 10px;*/
+}
+.contact  .text{
+    float: left;
+    width: 75%;
+    line-height:20px;
+    margin-left: 20px;
+}
+.bold  {
+    font-weight: 900;
+}
+.tiny{
+    width:100%;
+    font-size: 13px;
+}

@@ -1,0 +1,17 @@
+.content {
+    column-count: 4;
+    column-gap: 20px;
+    column-rule: 2px outset #0099ff;
+    /*-webkit-column-count: 3;*/
+    /*-webkit-column-gap: 20px;*/
+}
+
+.container {
+    column-count: 8;
+    column-gap: 10px;
+}
+
+.container img {
+    width: 250px;
+    margin: 5px 0;
+}

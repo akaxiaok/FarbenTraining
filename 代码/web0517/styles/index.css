@@ -1,0 +1,342 @@
+.first {
+    width: 100%;
+    height: 900px;
+    background: url("../images/banner.jpg");
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: #2885bf;
+    position: absolute;
+}
+
+.nav {
+    float: left;
+    width: 100%;
+    height: 30px;
+    margin: auto 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+header a {
+    color: #000;
+    font-size: x-large;
+    margin-right: 50px;
+}
+
+header a:hover {
+    color: #fff;
+}
+
+.left, .right {
+    position: relative;
+    height: 100px;
+    width: 40%;
+    float: left;
+}
+
+.right {
+    width: 60%;
+}
+
+.logo {
+    height: 50px;
+    width: 200px;
+    margin: 25px auto;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.content {
+    width: 1200px;
+    height: 500px;
+    color: #fff;
+    margin: 0 auto 0 auto;
+    padding: 300px 0 0 0;
+    text-align: center;
+}
+
+.content h2 {
+    line-height: 60px;
+    font-size: 40px;
+}
+
+.content h1 {
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.scrollTo a {
+    margin: 0 576px;
+    width: 48px;
+    height: 48px;
+}
+
+.scrollTo div {
+    text-align: center;
+}
+
+.scrollTo {
+    color: #fff;
+    line-height: 30px;
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.second {
+    width: 100%;
+    height: 800px;
+}
+
+.columns {
+    width: 1200px;
+    height: 700px;
+    column-width: 250px;
+    column-gap: 100px;
+    margin: 100px auto;
+}
+
+.column {
+    width: 250px;
+    height: 350px;
+}
+
+.column img {
+    width: 50px;
+    height: 50px;
+    margin: 0 100px;
+}
+
+.column h3 {
+    font-size: xx-large;
+    text-align: center;
+    line-height: 80px;
+}
+
+.column div {
+    text-align: center;
+    word-wrap: break-word;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.third .banner {
+    width: 100%;
+    height: 800px;
+    background: url("../images/banner_2.jpg");
+    color: #fff;
+}
+
+.banner h1 {
+    width: 100%;
+    height: 100px;
+    margin: 50px 0 0 0;
+    font-size: 60px;
+    text-align: center;
+    float: left;
+}
+
+.line {
+    background: url("../images/icon_11.png") no-repeat 0 0;
+    width: 970px;
+    height: 3px;
+    margin: 0 auto 50px auto;
+    clear: both;
+}
+
+.contact {
+    width: 20%;
+    height: 600px;
+    float: left;
+    margin: 50px 10% 0 10%;
+}
+
+.contact h2 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.contact div {
+    text-align: left;
+    word-wrap: break-word;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.contact .button {
+    background: #01b29a;
+    width: 80%;
+    height: 80px;
+    margin: 20px 10%;
+    border-radius: 50px;
+    text-align: center;
+    word-wrap: normal;
+    line-height: 80px;
+}
+
+.contact .button:hover {
+    cursor: pointer;
+}
+
+.list {
+    margin: 50px 0 0 0;
+    width: 60%;
+    height: 600px;
+    float: left;
+}
+
+.list div {
+    font-size: 20px;
+}
+
+.list h3 {
+    font-size: 35px;
+    line-height: 80px;
+}
+
+footer {
+    background: #0e1c41;
+    height: auto;
+    width: 100%;
+}
+
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer1 {
+    height: 350px;
+}
+
+.logos {
+    background: url("../images/icon_5.jpg");
+    width: 130px;
+    height: 350px;
+    float: left;
+    margin-right: 25px;
+}
+
+.footer2 {
+    font-size: small;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #7c7a8a;
+    border-top: #7c7a8a solid 1px;
+}
+
+.footer1 dt {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.footer1 dl {
+    float: left;
+    color: #fff;
+    padding-right: 25px;
+    margin-right: 25px;
+    margin-top: 35px;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.footer1 a {
+    color: #fff;
+}
+
+.cos {
+    height: 40px;
+    font-size: 14px;
+}
+
+.last dd {
+    height: 60px;
+    border-top: #12254e solid 1px;
+    line-height: 60px;
+    font-size: 14px;
+}
+
+#cos {
+    height: 40px;
+    border-top: none;
+    line-height: 14px;
+}
+
+.footer1 dl {
+    border-right: #12254e solid 1px;
+}
+
+.footer1 dl:last-child {
+    border-right: none;
+}
+
+.cont {
+    float: right;
+    color: #fff;
+    font-size: 12px;
+}
+
+.blank {
+    height: 15px;
+    width: 300px;
+    clear: both;
+}
+
+.follow {
+    width: 300px;
+    float: right;
+    border-bottom: #12254e solid 1px;
+}
+
+.follow a {
+    margin: auto 5px;
+    height: 51px;
+    line-height: 51px;
+    width: 26px;
+
+}
+
+.fr {
+    float: right;
+}
+
+.tip {
+    width: 300px;
+}
+
+.tip a {
+    margin: auto 5px;
+}
+
+.code {
+    width: 300px;
+    float: right;
+}
+
+.code img {
+    width: 118px;
+    height: 118px;
+    display: block;
+}
+
+.code span {
+    width: 118px;
+    display: block;
+    text-align: center;
+}
+
+.more {
+    float: left;
+}

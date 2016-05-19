@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style6.css">
+    <script src="http://webapi.amap.com/maps?v=1.3&key=68ae08d13efd875e7915acb433f04eef"></script>
+    <title>Page6</title>
+</head>
+<body>
+<div class="left">
+    <form action="#">
+        <div class="title">
+            <span class="bold"><span class="underline"> YUNCE</span> -</span> CULTURAL AND CREATIVE
+        </div>
+        <div>
+            NAME
+        </div>
+        <input type="text" title="">
+        <div>E-MAIL</div>
+        <input type="text" title="">
+        <div>MESSAGE</div>
+        <textarea name="" id="" cols="30" rows="10" title=""></textarea>
+        <input class="submit" type="submit" value="CLICK TO SEND">
+    </form>
+
+</div>
+<div class="right">
+    <div id="container"></div>
+</div>
+</body>
+<script>
+    window.onload = function () {
+        var map = new AMap.Map('container', {
+            zoom: 16,
+            center: [113.9397347, 22.52533692],
+        });
+        var marker = new AMap.Marker({
+            position: [113.9397347, 22.52533692],
+            map: map
+        });
+        marker.setMap(map);
+    }
+</script>
+</html>

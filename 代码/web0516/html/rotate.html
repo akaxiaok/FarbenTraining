@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/rotate.css">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <title>Rotate</title>
+</head>
+<div id="blue" class="blue"></div>
+
+<div id="red" class="red"></div>
+<div id="green" class="green"></div>
+
+<body>
+<script>
+    document.getElementById("red").onclick = function () {
+        document.getElementById("blue").style.transform = "translate(1000px,400px) scale(2,2) "
+    }
+    document.getElementById("green").onclick = function () {
+        document.getElementById("blue").style.transform = "translate(0px,0px)";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transition</title>
+    <style>
+        .blue {
+            width: 200px;
+            height: 50px;
+            background: #0099ff;
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .blue:hover .in {
+            transform: translateY(50px);
+        }
+
+        .blue:hover .out {
+            transform: translateY(50px);
+        }
+
+        .out {
+            position: absolute;
+            text-align: center;
+            color: #ffffff;
+            line-height: 50px;
+            width: 200px;
+            height: 50px;
+            float: left;
+            margin: 0;
+            -webkit-transition: width 2s, transform 1s, height 2s;
+            transition: width 2s, transform 1s, height 2s;
+        }
+
+        .in {
+            position: absolute;
+            text-align: center;
+            color: #ffffff;
+            line-height: 50px;
+            width: 200px;
+            height: 50px;
+            float: left;
+            margin: 0;
+            top: -50px;
+            -webkit-transition: width 2s, transform 1s, height 2s;
+            transition: width 2s, transform 1s, height 2s;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="blue">
+    <p class="in">hi</p>
+    <p class="out">bye</p>
+</div>
+</body>
+</html>
