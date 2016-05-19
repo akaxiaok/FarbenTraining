@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!—移动-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <title>Index</title>
+</head>
+<body>
+
+<div class="header">
+    <div class="back"><img src="images/icon_1.png" alt="back"></div>
+    <div class="page">我的酒店</div>
+    <div class="reg">注册</div>
+</div>
+<div class="mid">
+    <div class="title">
+        <img src="images/icon_2.png"
+             alt="">
+        <div class="titleText">会员登录</div>
+    </div>
+</div>
+<div class="form">
+    <div class="row">
+        <label for="name">用户名</label>
+        <input id="name" type="text">
+    </div>
+    <div class="row">
+        <label for="pwd">密码</label>
+        <input id="pwd" type="password">
+    </div>
+    <div class="rem"><input id="rem" type="checkbox"><label for="rem">记住登录密码</label></div>
+    <input class="submit" type="submit" value="登录" onclick="jumpToMain()">
+</div>
+</body>
+<script>
+    function jumpToMain() {
+        window.location.href="html/main.html";
+    }
+
+</script>
+</html>

@@ -1,0 +1,88 @@
+.header {
+    height: 50px;
+    width: 100%;
+    background: #dd4b39;
+}
+
+.back {
+    height: 23px;
+    margin: 13px 0;
+    width: 30px;
+    float: left;
+}
+.back img{
+    margin: 0 5px;
+    height: 23px;
+    width: 20px;
+}
+
+.page {
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.reg {
+    float: right;
+    position: relative;
+    top:-50px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #ef6452;
+}
+.mid{
+    width: 100%;
+    height: 40px;
+    border-bottom: #999 solid 1px;
+    padding: 15px 0;
+}
+.title{
+    width: 150px;
+    height: 40px;
+    margin:0 auto;
+}
+.title img{
+    width: 64px;
+    height: 40px;
+    float: left;
+}
+.titleText{
+    line-height: 40px;
+    height: 40px;
+    width: 80px;
+    float: left;
+    color: #dd4b39;
+    font-weight: bolder;
+    text-align: center;
+}
+.form{
+    margin-top: 30px;
+}
+.row{
+    width: 80%;
+    margin: 0 10%;
+    height: 30px;
+}
+.row label{
+    float: left;
+    width: 20%;
+}
+.row input{
+    float: left;
+    width: 60%;
+}
+.rem{
+    width: 130px;
+    margin: 30px auto;
+}
+.submit{
+    width: 30%;
+    margin:0 auto;
+    height: 50px;
+    color: #fff;
+    background: #ff9c00;
+    border: none;
+    display: block;
+}
