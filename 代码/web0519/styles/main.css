@@ -19,8 +19,8 @@ width: 100%
 .menu div{
 }
 .menu img {
-    width: 30%;
-    height: 40%;
+    /*width: 30%;*/
+    /*height: 40%;*/
 }
 
 .item1 {
@@ -32,7 +32,10 @@ width: 100%
 
 .item1 img{
     position: relative;
-    top:50px
+    top:40%;
+    width: 40%;
+    height: 40%;
+    left: -5%;
 }
 .item1 span {
     position: relative;
@@ -48,6 +51,8 @@ width: 100%
     position: relative;
     top:50px;
     right:20px;
+    width: 50px;
+    height: 50px;
 }
 .item2 span{
     position: relative;
@@ -63,20 +68,25 @@ width: 100%
     position: relative;
     top:40px;
     left: -20px;
+    width: 50px;
+    height: 50px;
 }
 .item3 span{
     position: relative;
-    top: -10px;
+    top: -20px;
     left: 10px;
 }
 .item4 {
     background: #f8ad37;
     margin-bottom: 15px;
     height: 70px;
+
 }
 .item4 img{
     position: relative;
     top:5px;
+    width: 25%;
+    height: 50%;
 }
 .item4 span{
     position: relative;
@@ -93,6 +103,8 @@ width: 100%
     position: relative;
     top:10px;
     left:10px;
+    width: 30%;
+    height: 50%;
 }
 .item5 span{
     position: relative;
@@ -106,8 +118,10 @@ width: 100%
 }
 .item6 img{
     position: relative;
-    top:10px;
+    top:5px;
     left:10px;
+    width: 20%;
+    height: 30%;
 }
 .item6 span{
     position: relative;
@@ -123,12 +137,14 @@ width: 100%
     position: relative;
     top:50px;
     left:-30px;
+    width: 20%;
+    height: 30%;
 }
 .item7 span{
     position: relative;
     margin-right: 10px;
     left:10px;
-    top: -30px;
+    top:  -10px;
 }
 .footer{
     background: #1a1a1a;
