@@ -12,7 +12,6 @@ window.onload = function () {
     // drawRect();
     drawImage();
 };
-
 function createCanvas() {
     document.body.innerHTML = "<canvas id=\"mycanvas\" width = \"" + CANVAS_WIDTH + "\" height=\"" + CANVAS_HEIGHT + "\">";
     myCanvas = document.getElementById("mycanvas");
