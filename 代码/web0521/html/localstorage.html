@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Local Storage</title>
+    <script>
+        window.onload = function () {
+            var saveBtn = document.getElementById("save"),
+                    textArea = document.getElementById("text");
+            if (localStorage.fuck) {
+                textArea.value = localStorage.fuck;
+            }
+            saveBtn.onclick = function () {
+                localStorage.fuck = textArea.value;
+            }
+        }
+    </script>
+</head>
+<body>
+<textarea title="storage" style="width: 200px; height: 200px" id="text">
+
+</textarea>
+<input type="button" value="Save" id="save">
+</body>
+</html>
