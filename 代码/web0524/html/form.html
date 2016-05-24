@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/bootstrap.css">
+    <link rel="stylesheet" href="../styles/bootstrap-theme.css">
+    <script src="../scripts/jquery-2.2.4.min.js"></script>
+    <script src="../scripts/bootstrap.js"></script>
+    <title>Form</title>
+    <script>
+        window.onload = function () {
+            var nodes = document.getElementsByTagName("label");
+            for (var i = 0; i < nodes.length; i++) {
+                nodes[i].className += "sr-only";
+//                 console.log(nodes[i]);
+            }
+//             for (var node in nodes) {
+//                 console.log(node);
+//             }
+//            var obj = {123: 132, q: "qwe"};
+//            var obj2 = new Map([[123,123],["qwe","qwe"]]);
+            var obj = ['A', 'B', 'C'];
+            obj.forEach(function (e, i, a) {
+                console.log(e);
+             });
+
+//            for (var node in nodes) {
+//                console.log(node + "  " + nodes[node]);
+//            }
+        }
+
+    </script>
+</head>
+<body>
+<form role="form" class="form-inline">
+    <div class="form-group">
+        <label>email</label>
+        <input type="email" class="form-control" placeholder="email">
+    </div>
+    <div class="form-group">
+        <label>文件</label>
+        <input type="file">
+    </div>
+</form>
+<form role="form" class="form">
+    <div class="form-group ">
+        <label class="col-md-2">email</label>
+        <input type="email" class="form-control  col-md-4" placeholder="email">
+    </div>
+    <div class="form-group col-md-2">
+        <label>文件</label>
+        <input type="file">
+    </div>
+</form>
+<form role="form" class="form-horizontal col-md-12">
+    <div class="form-group">
+        <label class="col-md-2  control-label">email</label>
+        <div class="col-md-4">
+            <input type="email" class="form-control  " placeholder="email">
+        </div>
+    </div>
+    <span class="glyphicon glyphicon-euro"></span>
+    <div class="container">
+        <button type="button" class="btn btn-block">block</button>
+        <button type="button" class="btn btn-danger btn-lg">block</button>
+        <button type="button" class="btn btn-default">block</button>
+        <button type="button" class="btn btn-group">block</button>
+        <button type="button" class="btn btn-group-justified">block</button>
+        <button type="button" class="btn btn-group-lg">block</button>
+        <button type="button" class="btn btn-group-sm">block</button>
+        <button type="button" class="btn btn-info">block</button>
+        <button type="button" class="btn btn-link">block</button>
+        <button type="button" class="btn btn-primary">block</button>
+        <button type="button" class="btn btn-success">block</button>
+        <button type="button" class="btn btn-toolbar">block</button>
+        <button type="button" class="btn btn-warning">block</button>
+    </div>
+</form>
+<img src="../images/3.jpg" alt="" class="img-thumbnail col-md-4 ">
+
+
+</body>
+</html>

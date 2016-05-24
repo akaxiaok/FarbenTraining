@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        'use strict';
+        function domin() {
+            if (true) {
+                var x = 1;
+                x = x + 1;
+            }
+            x = x + 2;
+            console.log(x);
+        }
+
+
+        //        function foo() {
+        //            alert("foo");
+        //        }
+        //        var foo2 = function () {
+        //            alert("foo2");
+        //        };
+        //        window.foo;
+
+        function rest() {
+            function sum(
+
+        ...
+            rest
+        )
+            {
+                var j = 0;
+                for (var i = 0; i < rest.length; i++) {
+                    j = j + rest[i];
+                }
+                return j;
+            }
+
+            // 测试:
+            var i, args = [];
+            for (i = 1; i <= 100; i++) {
+                args.push(i);
+            }
+            if (sum() !== 0) {
+                alert('测试失败: sum() = ' + sum());
+            } else if (sum(1) !== 1) {
+                alert('测试失败: sum(1) = ' + sum(1));
+            } else if (sum(2, 3) !== 5) {
+                alert('测试失败: sum(2, 3) = ' + sum(2, 3));
+            } else if (sum.apply(null, args) !== 5050) {
+                alert('测试失败: sum(1, 2, 3, ..., 100) = ' + sum.apply(null, args));
+            } else {
+                alert('测试通过!');
+            }
+        }
+        function method() {
+            function getAge() {
+                var y = new Date().getFullYear();
+                return y - this.birth;
+            }
+
+            var xiaoming = {
+                name: "小明",
+                birth: 1990,
+                age: getAge
+            };
+            alert(xiaoming.age());
+            alert(getAge());
+        }
+        method();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
