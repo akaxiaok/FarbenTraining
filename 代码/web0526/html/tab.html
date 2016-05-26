@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/reset.css">
+    <title>Title</title>
+    <style>
+        .tabs {
+            width: 350px;
+            height: 30px;
+        }
+        .tabs li {
+            float: left;
+            border: #ccc solid 2px;
+            line-height: 20px;
+            width: 100px;
+            text-align: center;
+        }
+        .tabs li:hover {
+            cursor: pointer;
+            background: #0099ff;
+        }
+        .text {
+            display: none;
+        }
+    </style>
+    <script>
+        'use strict';
+        window.onload = function () {
+            var tabs = document.getElementById("tabs"),
+                    selectedText = document.getElementById("text0"),
+                    selectedTab = tabs.children[0];
+            selectedText.style.display = "block";
+            selectedTab.style.background = "#00ffff";
+
+            for (var i = 0; i < tabs.children.length; i++) {
+//            tabArr.push(tabs[i]);
+                const x = i;
+            /*    tabs.children[i].addEventListener("click", function () {
+                    var text = document.getElementById("text" + x),
+                            tab = tabs.children[x];
+                    selectedTab.style.background = "#ffffff";
+                    tab.style.background = "#00ffff";
+                    selectedTab = tab;
+                    selectedText.style.display = "none";
+                    text.style.display = "block";
+                    selectedText = text;
+                });*/
+
+
+                tabs.children[i].addEventListener("click", (function (s) {
+                    return function () {
+                        var text = document.getElementById("text" + s),
+                                tab = tabs.children[s];
+                        selectedTab.style.background = "#ffffff";
+                        tab.style.background = "#00ffff";
+                        selectedTab = tab;
+                        selectedText.style.display = "none";
+                        text.style.display = "block";
+                        selectedText = text;
+                    }
+                }(i)));
+            }
+        };
+    </script>
+</head>
+<body>
+<div>
+    <ul class="tabs" id="tabs">
+        <li>tab1</li>
+        <li>tab2</li>
+        <li>tab3</li>
+    </ul>
+    <div id="text0" class="text"><img src="../images/1.jpg" alt=""></div>
+    <div id="text1" class="text"><img src="../images/2.jpg" alt=""></div>
+    <div id="text2" class="text"><img src="../images/3.jpg" alt=""></div>
+</div>
+</body>
+</html>
