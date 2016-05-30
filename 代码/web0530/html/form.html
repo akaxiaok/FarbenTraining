@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="../scripts/jquery-2.2.4.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<input id="text" type="text">
+<button id="btnHide" type="button">hide</button>
+<br>
+<button id="btnStop" type="button">stop</button>
+<br>
+<img id="img" src="../images/5.jpg" alt="img"><br>
+<img src="../images/5.jpg" alt="img"><br>
+<img src="../images/5.jpg" alt="img"><br>
+<img src="../images/5.jpg" alt="img"><br>
+<img src="../images/5.jpg" alt="img"><br>
+<img src="../images/5.jpg" alt="img"><br>
+<img src="../images/5.jpg" alt="img"><br>
+<img src="../images/5.jpg" alt="img"><br>
+<img src="../images/5.jpg" alt="img"><br>
+<img src="../images/5.jpg" alt="img"><br>
+<img src="../images/5.jpg" alt="img"><br>
+<img src="../images/5.jpg" alt="img"><br>
+<img src="../images/5.jpg" alt="img"><br>
+
+<script type="text/javascript">
+    'use strict';
+    $(function () {
+        $("#btnHide").click(function () {
+            $("#text").hide(1000, function () {
+                alert("input hide");
+            })
+        });
+        $("#img").click(function () {
+            $("#img").css({position: 'relative'}).animate({left: '355px'}, 5000);
+        });
+        $("#btnStop").click(function () {
+            $("#img").stop();
+        });
+    });
+</script>
+</body>
+</html>

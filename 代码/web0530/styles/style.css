@@ -1,0 +1,185 @@
+.header {
+    width: 800px;
+    height: 80px;
+    margin: 10px auto;
+}
+
+.header a {
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 900;
+    color: #fff;
+    margin: 0 0 0 5px;
+}
+
+.header ul {
+    background: #fff;
+    float: right;
+    width: 120px;
+    height: 15px;
+    margin: 10px;
+    padding: 4px;
+    border: #ccc solid 1px;
+}
+
+.theme li {
+    float: left;
+    height: 14px;
+    width: 14px;
+    margin: 0 5px 0 0;
+}
+
+.theme li:hover {
+    cursor: pointer;
+}
+
+.theme li:nth-child(1) {
+    background: url("../images/theme.gif") no-repeat 0 0;
+}
+
+.theme li:nth-child(2) {
+    background: url("../images/theme.gif") no-repeat -20px 0;
+}
+
+.theme li:nth-child(3) {
+    background: url("../images/theme.gif") no-repeat -40px 0;
+}
+
+.theme li:nth-child(4) {
+    background: url("../images/theme.gif") no-repeat -60px 0;
+}
+
+.theme li:nth-child(5) {
+    background: url("../images/theme.gif") no-repeat -80px 0;
+}
+
+.theme li:nth-child(6) {
+    background: url("../images/theme.gif") no-repeat -100px 0;
+}
+
+.theme li:nth-child(1):hover {
+    background: url("../images/theme.gif") no-repeat 0 -15px;
+}
+
+.theme li:nth-child(2):hover {
+    background: url("../images/theme.gif") no-repeat -20px -15px;
+}
+
+.theme li:nth-child(3):hover {
+    background: url("../images/theme.gif") no-repeat -40px -15px;
+}
+
+.theme li:nth-child(4):hover {
+    background: url("../images/theme.gif") no-repeat -60px -15px;
+}
+
+.theme li:nth-child(5):hover {
+    background: url("../images/theme.gif") no-repeat -80px -15px;
+}
+
+.theme li:nth-child(6):hover {
+    background: url("../images/theme.gif") no-repeat -100px -15px;
+}
+
+.nav {
+    height: 18px;
+    width: 784px;
+    margin: 8px auto;
+    padding: 8px;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 5px 0 0;
+    background: #eee;
+    padding: 2px;
+    position: relative;
+
+}
+
+.nav ul li a {
+    text-align: center;
+    color: #09f;
+    font-weight: bolder;
+}
+
+.nav ul li:hover {
+    background: inherit;
+    color: #fff;
+}
+
+.nav ul li:hover > a {
+    color: #fff;
+}
+
+.nav ul li:hover > ul {
+    display: block;
+}
+
+.nav ul li ul {
+    width: 100px;
+    display: none;
+}
+
+.nav ul li ul {
+    position: absolute;
+    top: 20px;
+    width: 100px;
+}
+
+.nav ul li ul li {
+    width: 100px;
+}
+
+.nav ul li ul li:hover {
+    background: #7cfc00;
+}
+.content{
+    width: 800px;
+    margin: 0 auto;
+}
+.left {
+    width: 200px;
+    float: left;
+    margin: 0 10px 0 0;
+    border: #ccc solid 1px;
+    z-index:-1;
+}
+.trend{
+    position: relative;
+}
+.title{
+    height: 20px;
+}
+.title span{
+    line-height:20px;
+    font-size: small;
+    color: #fff;
+    margin:0 0 0 3px;
+}
+.arrow{
+    width: 7px;
+    background: url("../images/up.gif") no-repeat 0 0;
+    float: right;
+    height: 8px;
+    position: absolute;
+    right: 9px;
+    top: 7px;
+}
+.rotate{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.arrow:hover{
+    cursor: pointer;
+}
+.tooltip{
+    font-size: small;
+    color: #0088ff;
+}
+.class{
+    position: relative;
+}
