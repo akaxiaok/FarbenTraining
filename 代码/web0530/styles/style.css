@@ -90,7 +90,7 @@
 
 .nav ul li {
     float: left;
-    margin: 0 5px 0 0;
+    margin: 0 10px 0 0;
     background: #eee;
     padding: 2px;
     position: relative;
@@ -125,6 +125,7 @@
     position: absolute;
     top: 20px;
     width: 100px;
+    z-index: 100;
 }
 
 .nav ul li ul li {
@@ -134,30 +135,53 @@
 .nav ul li ul li:hover {
     background: #7cfc00;
 }
-.content{
+
+.content {
     width: 800px;
     margin: 0 auto;
+
 }
+
 .left {
     width: 200px;
     float: left;
     margin: 0 10px 0 0;
     border: #ccc solid 1px;
-    z-index:-1;
+
 }
-.trend{
+
+.trend {
     position: relative;
 }
-.title{
+
+.news {
+    overflow: hidden;
+}
+
+.newsScroll {
+    height: 80px;
+    line-height: 14px;
+    text-indent: 1em;
+    position: relative;
+}
+
+.newsScroll li {
     height: 20px;
 }
-.title span{
-    line-height:20px;
+
+.title {
+    height: 26px;
+    position: relative;
+}
+
+.title span {
+    line-height: 26px;
     font-size: small;
     color: #fff;
-    margin:0 0 0 3px;
+    margin: 0 0 0 3px;
 }
-.arrow{
+
+.arrow {
     width: 7px;
     background: url("../images/up.gif") no-repeat 0 0;
     float: right;
@@ -166,20 +190,42 @@
     right: 9px;
     top: 7px;
 }
-.rotate{
+
+.rotate {
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
 }
-.arrow:hover{
+
+.arrow:hover {
     cursor: pointer;
 }
-.tooltip{
+
+.tooltip {
     font-size: small;
     color: #0088ff;
 }
-.class{
+
+.class {
     position: relative;
+    background: #fff;
+}
+
+.m-treeview {
+    padding: 5px 0 5px 15px;
+}
+
+.m-expanded {
+    padding: 0 0 0 20px;
+    background: url("../images/treeview-expanded.gif") no-repeat 0 0;
+    line-height: 14px;
+    font-size: 14px;
+}
+
+.m-expanded li {
+    line-height: 20px;
+    list-style-image: url("../images/treeview-item.gif");
+    list-style-position: inside;
 }

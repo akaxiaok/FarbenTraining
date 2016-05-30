@@ -15,9 +15,20 @@ $(function () {
         $('#' + $(this).attr('data-target')).slideToggle();
         rotateToggle($(this));
     });
+    $('.m-expanded').click(function () {
+        $(this).children('ul').slideToggle();
+    });
+    /*滚动 scroll*/
+    setInterval(function () {
+            $('#newsScroll').animate({top: '-20px'}, 1000).animate({top: '0'}, 0);
+            setTimeout(function () {
+                var li = $('.newsScroll li:first-child');
+                $('#newsScroll').append('<li>' + li.html() + '</li>');
+                li.remove();
+            }, 1000);
+        }
+        , 3000);
 });
-
-
 function rotateToggle(target) {
     if (target.hasClass('rotate')) {
         target.removeClass('rotate');
