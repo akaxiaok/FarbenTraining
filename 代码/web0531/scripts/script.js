@@ -20,7 +20,7 @@ $(function () {
         $('#' + $(this).attr('data-target')).slideToggle();
         rotateToggle($(this));
     });
-    $('.m-expanded span').click(function () {
+    $('.m-expanded>span').click(function () {
         $(this).siblings('ul').slideToggle();
         bgToggle($(this).parent('.m-expanded'));
     });
