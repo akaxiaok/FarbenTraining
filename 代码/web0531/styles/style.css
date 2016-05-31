@@ -1,0 +1,355 @@
+body {
+}
+
+.header {
+    width: 800px;
+    height: 80px;
+    margin: 10px auto;
+}
+
+.header a {
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 900;
+    color: #fff;
+    margin: 0 0 0 5px;
+}
+
+.header ul {
+    background: #fff;
+    float: right;
+    width: 120px;
+    height: 15px;
+    margin: 10px;
+    padding: 4px;
+    border: #ccc solid 1px;
+}
+
+.theme li {
+    float: left;
+    height: 14px;
+    width: 14px;
+    margin: 0 5px 0 0;
+}
+
+.theme li:hover {
+    cursor: pointer;
+}
+
+.theme li:nth-child(1) {
+    background: url("../images/theme.gif") no-repeat 0 -15px;
+}
+
+.theme li:nth-child(2) {
+    background: url("../images/theme.gif") no-repeat -20px 0;
+}
+
+.theme li:nth-child(3) {
+    background: url("../images/theme.gif") no-repeat -40px 0;
+}
+
+.theme li:nth-child(4) {
+    background: url("../images/theme.gif") no-repeat -60px 0;
+}
+
+.theme li:nth-child(5) {
+    background: url("../images/theme.gif") no-repeat -80px 0;
+}
+
+.theme li:nth-child(6) {
+    background: url("../images/theme.gif") no-repeat -100px 0;
+}
+
+.theme li:nth-child(1):hover {
+    background: url("../images/theme.gif") no-repeat 0 -15px;
+}
+
+.theme li:nth-child(2):hover {
+    background: url("../images/theme.gif") no-repeat -20px -15px;
+}
+
+.theme li:nth-child(3):hover {
+    background: url("../images/theme.gif") no-repeat -40px -15px;
+}
+
+.theme li:nth-child(4):hover {
+    background: url("../images/theme.gif") no-repeat -60px -15px;
+}
+
+.theme li:nth-child(5):hover {
+    background: url("../images/theme.gif") no-repeat -80px -15px;
+}
+
+.theme li:nth-child(6):hover {
+    background: url("../images/theme.gif") no-repeat -100px -15px;
+}
+
+.nav {
+    height: 18px;
+    width: 784px;
+    margin: 8px auto;
+    padding: 8px;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 10px 0 0;
+    background: #eee;
+    padding: 2px;
+    position: relative;
+
+}
+
+.nav ul li a {
+    text-align: center;
+    color: #09f;
+    font-weight: bolder;
+}
+
+.nav ul li:hover {
+    background: inherit;
+    color: #fff;
+}
+
+.nav ul li:hover > a {
+    color: #fff;
+}
+
+.nav ul li:hover > ul {
+    display: block;
+}
+
+.nav ul li ul {
+    width: 100px;
+    display: none;
+}
+
+.nav ul li ul {
+    position: absolute;
+    top: 20px;
+    width: 100px;
+    z-index: 100;
+}
+
+.nav ul li ul li {
+    width: 100px;
+}
+
+.nav ul li ul li:hover {
+    background: #7cfc00;
+}
+
+.content {
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.left {
+    width: 200px;
+    float: left;
+    margin: 0 10px 0 0;
+    border: #ccc solid 1px;
+
+}
+
+.trend {
+    position: relative;
+}
+
+.news {
+    overflow: hidden;
+}
+
+.newsScroll {
+    height: 80px;
+    line-height: 14px;
+    text-indent: 1em;
+    position: relative;
+}
+
+.newsScroll li {
+    height: 20px;
+}
+
+.title {
+    height: 26px;
+    position: relative;
+}
+
+.title h3 {
+    line-height: 26px;
+    font-size: small;
+    color: #fff;
+    margin: 0 0 0 3px;
+    display: inline;
+}
+
+.arrow {
+    width: 7px;
+    background: url("../images/up.gif") no-repeat 0 0;
+    float: right;
+    height: 8px;
+    position: absolute;
+    right: 9px;
+    top: 7px;
+}
+
+.rotate {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.tooltip {
+    font-size: small;
+    color: #0088ff;
+}
+
+.class {
+    position: relative;
+    background: #fff;
+}
+
+.m-treeview {
+    padding: 5px 0 5px 15px;
+}
+
+.m-expanded {
+    padding: 0 0 0 20px;
+    background: url("../images/treeview-expanded.gif") no-repeat 0 0;
+    line-height: 14px;
+    font-size: 14px;
+}
+
+.m-expanded span:hover {
+    cursor: pointer;
+}
+
+.m-expanded li {
+    line-height: 20px;
+    list-style: url("../images/treeview-item.gif") inside;
+}
+
+.hidden {
+    display: none;
+}
+
+.collapsed {
+    background: url("../images/treeview-collapsed.gif") no-repeat 0 0;
+}
+
+.right {
+    float: left;
+}
+
+.ad {
+    height: 150px;
+    width: 588px;
+    position: relative;
+    margin: 0 0 10px 0;
+}
+
+.slider {
+    height: 150px;
+    width: 588px;
+    position: absolute;
+    overflow: hidden;
+    z-index: -2;
+}
+
+.num {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.num li {
+    float: left;
+    margin: 0 3px 0 0;
+    background: #fff;
+    border: #ff7300 solid 1px;
+    color: #ff7300;
+    padding: 2px 5px;
+
+}
+
+.slider li {
+    height: 150px;
+    width: 588px;
+}
+
+.slider img {
+    height: 150px;
+    width: 588px;
+    display: block;
+    position: relative;
+}
+
+.hover {
+    background: #ff7300 !important;
+    border: #ff7300 solid 1px !important;
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.fresh {
+    height: 220px;
+    border: #ccc solid 1px;
+    overflow: hidden;
+    position: relative;
+}
+
+.prolist {
+    position: absolute;
+    width: 1848px;
+    height: 220px;
+    left: 0;
+}
+
+.prolist ul li {
+    float: left;
+    margin: 20px 30px 0 0;
+}
+
+.prolist span {
+    display: block;
+    text-align: center;
+}
+
+.prolist img {
+    width: 124px;
+    height: 124px;
+}
+
+.title p {
+    margin:4px 8px;
+    float: right;
+}
+.title p:hover {
+    cursor: pointer;
+}
+.container{
+    position: absolute;
+    height: 124px;
+    width: 124px;
+}
+/*.container:hover{*/
+    /*cursor: pointer;*/
+/*}*/
+.zoom{
+    position: relative;
+    background: url("../images/zoom.gif") no-repeat 0 0;
+    width: 32px;
+    height: 32px;
+    opacity:0.5;
+    margin: 50%;
+    top: -16px;
+    left:-16px;
+}
