@@ -33,16 +33,17 @@
 //            }
             blue.ondragover = function (e) {
                 e.preventDefault();
-            };
+            }
+            gray.ondrop
             gray.ondragover = function (e) {
                 e.preventDefault();
-            };
+            }
             img.ondragstart = function (e) {
                 e.dataTransfer.setData("imgId", "img");
-            };
+            }
             blue.ondrop = dropImg;
             gray.ondrop = dropImg;
-        };
+        }
         function showObj(obj) {
             var s = "";
             for (var k in obj) {
