@@ -1,3 +1,6 @@
+body {
+}
+
 .header {
     width: 800px;
     height: 80px;
@@ -34,7 +37,7 @@
 }
 
 .theme li:nth-child(1) {
-    background: url("../images/theme.gif") no-repeat 0 0;
+    background: url("../images/theme.gif") no-repeat 0 -15px;
 }
 
 .theme li:nth-child(2) {
@@ -174,11 +177,12 @@
     position: relative;
 }
 
-.title span {
+.title h3 {
     line-height: 26px;
     font-size: small;
     color: #fff;
     margin: 0 0 0 3px;
+    display: inline;
 }
 
 .arrow {
@@ -224,8 +228,128 @@
     font-size: 14px;
 }
 
+.m-expanded span:hover {
+    cursor: pointer;
+}
+
 .m-expanded li {
     line-height: 20px;
-    list-style-image: url("../images/treeview-item.gif");
-    list-style-position: inside;
+    list-style: url("../images/treeview-item.gif") inside;
+}
+
+.hidden {
+    display: none;
+}
+
+.collapsed {
+    background: url("../images/treeview-collapsed.gif") no-repeat 0 0;
+}
+
+.right {
+    float: left;
+}
+
+.ad {
+    height: 150px;
+    width: 588px;
+    position: relative;
+    margin: 0 0 10px 0;
+}
+
+.slider {
+    height: 150px;
+    width: 588px;
+    position: absolute;
+    overflow: hidden;
+    z-index: -2;
+}
+
+.num {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.num li {
+    float: left;
+    margin: 0 3px 0 0;
+    background: #fff;
+    border: #ff7300 solid 1px;
+    color: #ff7300;
+    padding: 2px 5px;
+
+}
+
+.slider li {
+    height: 150px;
+    width: 588px;
+}
+
+.slider img {
+    height: 150px;
+    width: 588px;
+    display: block;
+    position: relative;
+}
+
+.hover {
+    background: #ff7300 !important;
+    border: #ff7300 solid 1px !important;
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.fresh {
+    height: 220px;
+    border: #ccc solid 1px;
+    overflow: hidden;
+    position: relative;
+}
+
+.prolist {
+    position: absolute;
+    width: 1848px;
+    height: 220px;
+    left: 0;
+}
+
+.prolist ul li {
+    float: left;
+    margin: 20px 30px 0 0;
+}
+
+.prolist span {
+    display: block;
+    text-align: center;
+}
+
+.prolist img {
+    width: 124px;
+    height: 124px;
+}
+
+.title p {
+    margin:4px 8px;
+    float: right;
+}
+.title p:hover {
+    cursor: pointer;
+}
+.container{
+    position: absolute;
+    height: 124px;
+    width: 124px;
+}
+/*.container:hover{*/
+    /*cursor: pointer;*/
+/*}*/
+.zoom{
+    position: relative;
+    background: url("../images/zoom.gif") no-repeat 0 0;
+    width: 32px;
+    height: 32px;
+    opacity:0.5;
+    margin: 50%;
+    top: -16px;
+    left:-16px;
 }
