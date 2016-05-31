@@ -142,7 +142,6 @@ body {
 .content {
     width: 800px;
     margin: 0 auto;
-
 }
 
 .left {
@@ -150,7 +149,6 @@ body {
     float: left;
     margin: 0 10px 0 0;
     border: #ccc solid 1px;
-
 }
 
 .trend {

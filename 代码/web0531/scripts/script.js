@@ -10,8 +10,8 @@ $(function () {
     $("#theme").children().each(function () {
         this.onclick = function () {
             $("#css").attr('href', 'styles/theme/theme_' + this.id + '.css');
-            $(this).css('background-adPosition-Y', '-15px');
-            $(this).siblings().css('background-adPosition-Y', '0');
+            $(this).css('background-Position-Y', '-15px');
+            $(this).siblings().css('background-Position-Y', '0');
         }
     });
     /*折叠 collapse*/
