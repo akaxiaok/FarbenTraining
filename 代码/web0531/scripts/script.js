@@ -46,7 +46,8 @@ $(function () {
     });
     $('.ad').on('mouseleave', function () {
         adScroll();
-    }).on('mouseover', function () {
+    });
+    $('.ad').on('mouseover', function () {
         adScrollStop();
     });
     /*广告滚动 ads scroll*/
