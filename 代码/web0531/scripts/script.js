@@ -86,13 +86,14 @@ $(function () {
 });
 
 function bgToggle(target) {
-    if (target.css('background').includes('expanded')) {
-        var url = target.css('background').replace(/expanded/, 'collapsed');
-        target.css({background: url});
+    if (target.css('background-image').includes('expanded')) {
+        var url = target.css('background-image').replace(/expanded/, 'collapsed');
+        target.css({backgroundImage: url});
+        console.log(target[0].style.background);
     }
     else {
-        var url = target.css('background').replace(/collapsed/, 'expanded');
-        target.css({background: url});
+        var url = target.css('background-image').replace(/collapsed/, 'expanded');
+        target.css({backgroundImage: url});
     }
 }
 

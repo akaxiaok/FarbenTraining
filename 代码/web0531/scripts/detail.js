@@ -17,13 +17,13 @@ $(function () {
     });
     /*改变预览图 change product image*/
     $('.small').on('click', function () {
-        var bg = $('.image').css('background'),
+        var bg = $('.image').css('background-image'),
             src = $(this).children().attr('src');
         src = src.match(/\bpro_img.*.jpg/);
         console.log(src);
         src = src[0].substring(0, src[0].length - 4);
         src = src + '_small.jpg';
-        $('.image').css('background', bg.replace(/\bpro_img.*.jpg/, src));
+        $('.image').css('background-image', bg.replace(/\bpro_img.*.jpg/, src));
     });
     /*切换描述 toggle description*/
     $('.tab li').on('click', function () {
@@ -43,7 +43,7 @@ $(function () {
     //改变颜色 change color
     $('.color_change li img').on('click', function () {
         $('#color').text($(this).attr('alt'));
-        var bg = $('.image').css('background'),
+        var bg = $('.image').css('background-image'),
             url = $(this).attr('src').match(/\b\/.*\./);
         url = url[0].replace(/\./, '_');
         $('.smallList img').each(function () {
@@ -52,7 +52,7 @@ $(function () {
             $(this).attr('src', src);
             console.log();
         });
-        $('.image').css('background', bg.replace(/\b\/pro_img.*?_/, url));
+        $('.image').css('background-image', bg.replace(/\b\/pro_img.*?_/, url));
     });
 
 
@@ -60,13 +60,13 @@ $(function () {
     $('.rating li').on('mouseover', function () {
         console.log($(this));
         var index = $(this).attr('data-index');
-        $('.rating').css('backgroundPositionY', index * -16 - 80);
+        $('.rating').css('backgroundPosition', '0 ' + (index * -16 - 80) + 'px');
     }).on('click', function () {
         rate = $(this).attr('data-index');
         alert('您给此商品的评分是： ' + rate + '分');
     });
     $('.rating').on('mouseout', function () {
-        $('.rating').css('backgroundPositionY', rate * -16);
+        $('.rating').css('backgroundPosition', '0 ' + (rate * -16) + 'px');
     });
     //购物车 cart
     $('#cart').on('click', function () {
