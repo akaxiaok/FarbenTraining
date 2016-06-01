@@ -139,11 +139,6 @@ body {
     background: #7cfc00;
 }
 
-.content {
-    width: 800px;
-    margin: 0 auto;
-}
-
 .title {
     height: 26px;
     position: relative;
@@ -158,11 +153,19 @@ body {
 }
 
 .content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.detail {
     border: #ccc solid 1px;
+    width: 798px;
+    position: absolute;
 }
 
 .left {
     width: 380px;
+    float: left;
 }
 
 .image {
@@ -172,50 +175,160 @@ body {
     background: url("../images/pro_img/blue_one_small.jpg") no-repeat 0 0;
     margin: 10px 10px;
 }
-.smallList{
+
+.smallList {
     height: 80px;
 }
-.smallList li{
+
+.smallList li {
     float: left;
 }
-.small img{
+
+.small img {
     width: 62px;
     height: 62px;
     border: #eee solid 1px;
     margin: 10px;
 }
-.small img:hover{
+
+.small img:hover {
     cursor: pointer;
 }
-.tab{
+
+.tab {
     height: 20px;
     clear: both;
     margin: 0 10px;
 }
-.tab li{
+
+.tab li {
     float: left;
     width: 80px;
     text-align: center;
     background: #eee;
     height: 20px;
     line-height: 20px;
-    margin: 0 5px 0 0 ;
+    margin: 0 5px 0 0;
 }
-.tab li:hover{
+
+.tab li:hover {
     background: #ccc;
     cursor: pointer;
 }
-.proDes{
+
+.proDes {
     width: 360px;
     border: #bbb solid 1px;
     margin: 0 0 10px 10px;
 }
-.proDes div{
+
+.proDes div {
     display: none;
 }
-div .show{
+
+div .show {
     display: block;
 }
-.right{
+
+.right {
     width: 380px;
+    float: left;
+    margin: 20px 0;
 }
+
+.right h4 {
+    color: #333;
+    font-weight: bold;
+}
+
+.right {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.pro_size ul {
+    height: 25px;
+}
+
+.pro_size li {
+    float: left;
+    width: 32px;
+    height: 20px;
+    border: #ccc solid 1px;
+    text-align: center;
+    margin: 0 5px 0 0;
+}
+
+.color_change {
+    margin: 0 0 20px 0;
+}
+
+.color_change ul {
+    width: 380px;
+    height: 34px;
+}
+
+.color_change li {
+    float: left;
+    width: 34px;
+    height: 34px;
+    border: #ccc solid 1px;
+    margin: 5px;
+}
+
+.color_change img {
+    width: 34px;
+    height: 34px;
+}
+
+.pro_size li:hover {
+    cursor: pointer;
+    background: #ccc;
+}
+
+.color_change img:hover {
+    cursor: pointer;
+}
+
+.pro_num {
+    width: 380px;
+    margin: 10px 0;
+}
+
+.pro_rating li {
+    float: left;
+}
+
+#cart {
+    clear: both;
+}
+.pro_rating{
+    margin: 10px 0;
+}
+.rating{
+    background: url("../images/star-matrix.gif") no-repeat 0 0;
+    height: 16px;
+    width: 80px;
+}
+.rating li{
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+.rating li:hover {
+    cursor: pointer;
+}
+
+#cart{
+    margin: 10px 0;
+}
+#cart img:hover{
+    cursor: pointer;
+}
+
