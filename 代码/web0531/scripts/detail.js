@@ -48,15 +48,13 @@ $(function () {
         url = url[0].replace(/\./, '_');
         $('.smallList img').each(function () {
             var src = $(this).attr('src');
-            src = src.replace(/\bpro_img.*?_/, url);
+            src = src.replace(/\b\/pro_img.*?_/, url);
             $(this).attr('src', src);
             console.log();
         });
-        // console.log(bg);
-        url = bg.replace(/\bpro_img.*?_/, url);
-        // console.log(src);
-        $('.image').css('background', url);
+        $('.image').css('background', bg.replace(/\b\/pro_img.*?_/, url));
     });
+
 
     //打分 rating
     $('.rating li').on('mouseover', function () {
@@ -65,19 +63,19 @@ $(function () {
         $('.rating').css('backgroundPositionY', index * -16 - 80);
     }).on('click', function () {
         rate = $(this).attr('data-index');
-        alert('您给此商品的评分是： '+rate+'分');
+        alert('您给此商品的评分是： ' + rate + '分');
     });
     $('.rating').on('mouseout', function () {
         $('.rating').css('backgroundPositionY', rate * -16);
     });
     //购物车 cart
-    $('#cart').on('click',function () {
+    $('#cart').on('click', function () {
         var str = '感谢您的购买。\n您购买的\n产品是：';
-          str +=  $('#pro_name').text()+'；\n尺寸是：';
-        str+=$('#size').text()+'；\n颜色是：';
-        str+=$('#color').text()+'；\n数量是：';
-        str+=$('#num_sort').val()+'；\n总价是：';
-        str+=$('#priceSum').text()+'元。';
+        str += $('#pro_name').text() + '；\n尺寸是：';
+        str += $('#size').text() + '；\n颜色是：';
+        str += $('#color').text() + '；\n数量是：';
+        str += $('#num_sort').val() + '；\n总价是：';
+        str += $('#priceSum').text() + '元。';
         window.confirm(str);
     });
     /*end*/
