@@ -1,0 +1,127 @@
+body {
+    width: 100%;
+}
+
+.h-back {
+    width: 100%;
+    min-width: 1100px;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.h-background {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.background {
+    background: url("../images/background_01.jpg") no-repeat 0 0;
+    width: 1920px;
+    height: 866px;
+    position: relative;
+    left: -400px;
+}
+
+.h-content {
+    width: 100%;
+    min-width: 1100px;
+}
+
+.h-header {
+    height: 36px;
+    background: #323232;
+}
+
+.h-contacts {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.h-contacts ul {
+    float: right;
+}
+
+.h-contacts li {
+    float: left;
+    line-height: 36px;
+    color: #666;
+}
+
+.h-contacts li {
+    background: #fff;
+    padding-left: 16px;
+}
+
+.h-contacts .li-normal {
+    background: inherit;
+}
+
+.h-contacts li:nth-last-child(1) {
+    padding-right: 8px;
+}
+
+.h-contacts li:nth-child(3) {
+    margin-left: 8px;
+}
+
+.h-nav {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.h-logo {
+    background: #dd4012;
+    color: #fff;
+    width: 180px;
+    height: 115px;
+    text-align: center;
+}
+
+.h-logo img {
+    margin: 30px 0 10px 0;
+    display: inline;
+}
+
+.h-nav-list {
+    width: 180px;
+    height: 220px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #989898;
+}
+
+.h-nav-list ul {
+    width: 80px;
+    margin: 5px 0;
+    line-height: 42px;
+    float: left;
+    font-size: 14px;
+}
+
+.h-nav-list li {
+    background: inherit;
+}
+
+.h-nav-list-cn {
+    text-align: left;
+}
+
+.h-nav-list-en {
+    text-align: right;
+    padding-right: 20px;
+}
+.h-main{
+    margin: 160px auto 0 auto;
+    color: #fff;
+    width: 1100px;
+}
+.h-main h1{
+    font-size: 67px;
+    margin: 0 0 0 380px;
+}
+.h-main h2{
+    font-size: 123px;
+    margin: 80px 0 0 380px;
+    color: #dd4012;
+    font-weight: 900;
+}
