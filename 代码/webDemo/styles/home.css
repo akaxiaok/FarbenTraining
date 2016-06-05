@@ -69,7 +69,10 @@ body {
     width: 1100px;
     margin: 0 auto;
 }
-
+.h-nav span{
+    font-size: 12px;
+    color: #ffac94;
+}
 .h-logo {
     background: #dd4012;
     color: #fff;
