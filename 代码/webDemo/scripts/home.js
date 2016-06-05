@@ -1,5 +1,5 @@
 /**
- * Created by lenovo on 2016/6/3.
+ * Created by Parad0x on 2016/6/3.
  */
 'use strict';
 $(function () {

@@ -238,9 +238,11 @@ body {
     top: 20%;
     left: 60%;
 }
-.view-point:hover{
-    animation-play-state:paused;
+
+.view-point:hover {
+    animation-play-state: paused;
 }
+
 .close {
     position: relative;
     left: 305px;
@@ -257,4 +259,56 @@ body {
 
 .close:hover {
     cursor: pointer;
+}
+
+.view-title {
+    color: #ffd1c4;
+    font-size: 17px;
+    line-height: 20px;
+    height: 30px;
+    width: 270px;
+    margin: 0 15px;
+    font-weight: 900;
+}
+
+.view-sub {
+    color: #fe734b;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.view-arrow {
+    float: right;
+}
+
+.view-case {
+    margin: 0 15px;
+}
+
+.case-img {
+    width: 110px;
+    height: 65px;
+}
+
+.case-content {
+    float: right;
+    width: 170px;
+    height: 65px;
+}
+
+.case-title {
+    font-size: 14px;
+    color: #ffd1c4;
+}
+
+.case-date {
+    color: #f77751;
+    font-size: 12px;
+    line-height: 40px;
+
+}
+
+.case-company {
+    color: #ffa88e;
+    font-size: 12px;
 }
