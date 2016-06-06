@@ -1,0 +1,277 @@
+body {
+    background: #f0f1f1;
+}
+
+.h-back {
+    width: 100%;
+    min-width: 1100px;
+    overflow: hidden;
+    position: absolute;
+    top: 47px;
+    z-index: -1;
+}
+
+.h-background {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.background {
+    background: url("../images/banner_07.jpg") no-repeat 0 0;
+    width: 1920px;
+    height: 866px;
+    position: relative;
+    left: -400px;
+}
+
+.header {
+    width: 100%;
+    min-width: 1100px;
+    height: 48px;
+    background: #323232;
+}
+
+.crumbs {
+    width: 100%;
+    min-width: 1100px;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 240px;
+    height: 28px;
+}
+
+.h-logo {
+    background: #dd4012;
+    color: #fff;
+    width: 180px;
+    height: 115px;
+    text-align: center;
+    float: left;
+}
+
+.h-nav {
+    width: 1100px;
+    margin: 0 auto;
+
+}
+
+.h-nav span {
+    font-size: 12px;
+    color: #ffac94;
+}
+
+.h-logo img {
+    margin: 30px 0 10px 0;
+    display: inline;
+}
+
+.nav-list {
+    float: left;
+    margin: 0 0 0 30px;
+}
+
+.nav-list li {
+    float: left;
+    width: 87px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    color: #888;
+    font-weight: 900;
+}
+
+.nav-list li:hover {
+    background: #dd4012;
+    color: #fff;
+}
+
+.nav-list a {
+    font-size: 13px;
+    color: inherit;
+}
+
+.contacts {
+    float: right;
+}
+
+.contacts span {
+    color: #757575;
+}
+
+.contacts li {
+    float: left;
+    line-height: 48px;
+    color: #666;
+    padding-left: 16px;
+}
+
+.crumbs-content {
+    width: 1100px;
+    margin: 0 auto;
+    line-height: 28px;
+    color: #fff;
+}
+
+.crumbs-content a {
+    color: inherit;
+}
+
+.crumbs-content span {
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.footer {
+    width: 100%;
+    min-width: 1100px;
+    background: #323232;
+    height: 82px;
+    float: left;
+    margin: 40px 0 0 0;
+}
+
+.footer-content {
+    width: 1100px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.footer-content img {
+    width: 164px;
+    margin: 20px 0 0 0;
+    float: left;
+}
+
+.footer-content ul {
+    float: right;
+    height: 20px;
+    margin: 28px 0 0 0;
+}
+.footer-content a {
+    color: #999;
+}
+.footer-content ul li {
+    float: left;
+    margin: 0 0 0 20px;
+}
+
+.copyright {
+    float: right;
+    color: #666;
+}
+.main-container {
+    position: absolute;
+    top: 265px;
+    margin: 45px auto 0 auto;
+    width: 100%;
+    min-width: 1100px;
+}
+
+.main-content {
+    width: 1100px;
+    margin: 0 auto;
+    position: static;
+}
+.title{
+    border-left: #c5c3b8 solid 4px;
+    border-right: #c5c3b8 solid 4px;
+    color: #c5c3b8;
+}
+.first-hr{
+    width: 12px;
+    display: inline-block;
+}
+.second-hr {
+    display: inline-block;
+    width: 817px;
+}
+.title-en{
+    color: #dd4012;
+    font-size: 24px;
+    margin: 0 20px 0 0;
+    font-weight: 900;
+}
+.title-cn  {
+    color: #333;
+    font-weight: 900;
+    font-size: 24px;
+}
+.contact-method{
+    margin: 30px 0 0 0 ;
+    font-size: 12px;
+}
+.tel-img{
+    float: left;
+    width: 14px;
+}
+.tel-img li{
+    float: left;
+    width: 14px;
+}
+.tel{
+    width: 175px;
+    height: 80px;
+    float: left;
+    margin: 0 60px 0 15px;
+}
+.tel li{
+    text-align: left;
+    height: 25px;
+    line-height: 15px;
+}
+.other-img{
+    float: left;
+    width: 14px;
+}
+.other-img li{
+    float: left;
+    width: 14px;
+    height: 25px;
+    line-height: 15px;
+    text-align: center;
+}
+.other{
+    width: 300px;
+    float: left;
+    margin: 0 0 0 15px;
+}
+.other li{
+    float: left;
+    height: 25px;
+    line-height: 14px;
+    width: 300px;
+}
+.bus-img{
+    width: 14px;
+    float: left;
+}
+
+.bus-img li{
+    width: 14px;
+    float: left;
+}
+.take-bus{
+    width: 450px;
+    height: 80px;    float: left;
+    margin: 0 0 0 15px;
+}
+.take-bus li{
+    float: left;
+    width: 450px;
+    height: 25px;
+    line-height: 15px;
+    text-align: left;
+}
+.bus{
+    color: #ccc;
+    background: #757575;
+    padding: 3px;
+    margin: 0 10px 0 0;
+}
+.bus-num{
+    color: #dd4012;
+    font-weight:800;
+}
