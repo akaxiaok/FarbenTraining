@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input {
+            display: none;
+        }
+
+        label {
+            position: relative;
+            padding-left: 25px;
+        }
+
+        label:before {
+            content: "";
+            display: block;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: #fff;
+            border: #ccc solid 2px;
+            -moz-border-radius: 20px;
+            -webkit-border-radius: 20px;
+            border-radius: 20px;
+
+        }
+        label:after {
+            content: "";
+            width: 4px;
+            height: 4px;
+            position: absolute;
+            left: 5px;
+            top: 5px;
+            background: #dd4012;
+            display: none;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+        }
+
+        input:checked + label:after {
+            display: block;
+        }
+        input:checked+ label:before{
+            border: #dd4012 solid 2px;
+        }
+    </style>
+</head>
+<body>
+<input type="radio" name="sex" id="male" value="male" checked/>
+<label for="male">男</label>
+<input type="radio" name="sex" id="female" value="female"/><label for="female">女</label>
+</body>
+</html>
