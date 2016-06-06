@@ -469,7 +469,6 @@ body {
 .submit{
     height: 45px;
     width: 230px;
-
     background: #dd4012;
     margin: 45px auto ;
 }
@@ -484,4 +483,78 @@ body {
 }
 .submit:focus {
     outline:none;
+}
+.submit-success{
+    display: none;
+    width: 340px;
+    height: 380px;
+    background-color: #fff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-170px,-190px);
+}
+.cancel{
+    background: #dd4012;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    position: relative;
+    left: 325px;
+    top:-15px;
+}
+.cancel :hover{
+    cursor: pointer;
+}
+.cancel img{
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+.submit-img {
+    display: block;
+    height: 78px;
+    width: 104px;
+    margin: 20px auto;
+}
+.submit-ensure{
+    display: block;
+    background: #dd4012;
+    margin: 0 auto ;
+    border: none;
+    width: 235px;
+    height: 35px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 35px;
+}
+.submit-message{
+    color: #dd4012;
+    font-size: 26px;
+    font-weight: 900;
+    text-align: center;
+}
+.submit-info{
+    font-size: 12px;
+    text-align: center;
+    color: #dd4012;
+    font-weight: 900;
+    padding: 20px 70px ;
+    line-height: 15px;
+}
+.submit-ensure:focus {
+    outline:none;
+}
+.free-time{
+    display: block;
+    width: 231px;
+    height: 31px;
+    margin: 0  auto 25px auto;
+    border: #dd4012 solid 2px;
+    text-indent: 2em;
+}
+.free-time:focus {
+    outline: none;
 }

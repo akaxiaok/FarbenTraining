@@ -63,12 +63,12 @@ $(function () {
         var $slider = $('.priceSlider li');
         if (priceEnd !== 0) {
             $('.priceSlider li span').hide();
-            $($slider[priceEnd+1]).children().show();
+            $($slider[priceEnd + 1]).children().show();
             $($slider[priceStart]).children().show();
         }
         else if (priceStart === priceEnd) {
             $('.priceSlider li span').hide();
-            $($slider[priceEnd+1]).children().show();
+            $($slider[priceEnd + 1]).children().show();
             $($slider[priceStart]).children().show();
         }
     });
@@ -114,15 +114,22 @@ $(function () {
         var $slider = $('.timeSlider li');
         if (priceEnd !== 0) {
             $('.timeSlider li span').hide();
-            $($slider[priceEnd+1]).children().show();
+            $($slider[priceEnd + 1]).children().show();
             $($slider[priceStart]).children().show();
         }
         else if (priceStart === priceEnd) {
             $('.timeSlider li span').hide();
-            $($slider[priceEnd+1]).children().show();
+            $($slider[priceEnd + 1]).children().show();
             $($slider[priceStart]).children().show();
         }
     });
-
-
+    $('.cancel').click(function () {
+        $('.submit-success').hide();
+    });
+    $('.submit').click(function () {
+        $('.submit-success').show();
+    });
+    $('.submit-ensure').click(function () {
+        $('.submit-success').hide();
+    });
 });
