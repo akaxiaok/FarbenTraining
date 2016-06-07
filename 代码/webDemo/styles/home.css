@@ -1,5 +1,6 @@
 body {
     width: 100%;
+    font-family:'微软雅黑';
 }
 
 .h-back {
@@ -130,7 +131,6 @@ body {
     margin: 0 0 0 370px;
     font-size: 67px;
     font-weight: 900;
-    font-family:'微软雅黑',arial;
 }
 .h-main  .ch{
     font-size: 83px;
@@ -141,7 +141,6 @@ body {
     font-size: 123px;
     margin: 10px 0 0 380px;
     color: #dd4012;
-    font-family:'微软雅黑',arial;
     font-weight: 900;
 }
 
